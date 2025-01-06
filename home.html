@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .hero {
+            background-image: url('images/A1.jpg'); /* Ganti dengan URL gambar yang sesuai */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        .hero .cta-button {
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-top: 20px;
+            display: inline-block;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero .cta-button:hover {
+            background-color: rgb(120, 30, 180);
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: -50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content h2 {
+            color: rgb(165, 41, 222);
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .highlights {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .highlights .box {
+            background-color: rgb(240, 240, 240);
+            padding: 20px;
+            border-radius: 5px;
+            width: 30%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlights .box h3 {
+            color: rgb(165, 41, 222);
+        }
+
+        .highlights .box p {
+            font-size: 0.9em;
+        }
+
+        .testimonials {
+            background-color: #f9f9f9;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            color: rgb(165, 41, 222);
+        }
+
+        .testimonial-box {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 600px;
+            font-style: italic;
+        }
+
+        .testimonial-box span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: rgb(165, 41, 222);
+        }
+
+        .latest-articles {
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+
+        .latest-articles h2 {
+            color: rgb(165, 41, 222);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .article {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h3 {
+            color: rgb(165, 41, 222);
+        }
+
+        .article p {
+            line-height: 1.6;
+        }
+
+        .article a {
+            color: rgb(165, 41, 222);
+            text-decoration: none;
+        }
+
+        .article a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>VANN'S ROOM</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Halaman Utama</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="about.html">About</a>
+        <a href="profil.html">Profil</a>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero">
+        <h1>Selamat Datang di Situs Kami</h1>
+        <p>Temukan segala sesuatu tentang pemrograman web di sini!</p>
+        <a href="about.html" class="cta-button">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Mengapa Belajar Pemrograman Web?</h2>
+        <p>Web development adalah salah satu skill paling penting di era digital saat ini. Dengan menguasai HTML, CSS, dan bahasa pemrograman web lainnya, Anda dapat membuat situs web yang dinamis dan fungsional.</p>
+        <p>Di situs ini, kami menyediakan berbagai materi pembelajaran tentang HTML, CSS, PHP, MySQL, dan lainnya yang akan membantu Anda menjadi web developer handal.</p>
+
+        <!-- Highlights Section -->
+        <div class="highlights">
+            <div class="box">
+                <h3>Belajar HTML</h3>
+                <p>HTML adalah bahasa dasar yang digunakan untuk membuat struktur halaman web. Pelajari bagaimana cara menggunakannya dengan benar.</p>
+            </div>
+            <div class="box">
+                <h3>CSS untuk Desain</h3>
+                <p>CSS membantu Anda membuat tampilan halaman web yang menarik dan responsif untuk berbagai perangkat.</p>
+            </div>
+            <div class="box">
+                <h3>PHP & MySQL</h3>
+                <p>Pelajari bagaimana memanfaatkan PHP dan MySQL untuk membuat aplikasi web dinamis yang terhubung dengan database.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Apa Kata Pengunjung Kami?</h2>
+        <div class="testimonial-box">
+            <p>"Belajar HTML dan CSS di sini sangat mudah dipahami! Tutorialnya sangat membantu."</p>
+            <span>- Rama, Developer</span>
+        </div>
+        <div class="testimonial-box">
+            <p>"Website ini adalah sumber referensi utama saya saat belajar PHP dan MySQL. Top!"</p>
+            <span>- Boeng, Programmer</span>
+        </div>
+    </section>
+
+    <!-- Latest Articles Section -->
+    <section class="latest-articles">
+        <h2>Artikel Terbaru</h2>
+        <div class="article">
+            <h3><a href="#">Cara Membuat Halaman Web Responsif dengan CSS</a></h3>
+            <p>Panduan lengkap untuk membuat halaman web yang dapat menyesuaikan tampilannya di berbagai perangkat...</p>
+        </div>
+        <div class="article">
+            <h3><a href="#">10 Tips & Trik Menggunakan PHP</a></h3>
+            <p>PHP adalah bahasa pemrograman server-side yang banyak digunakan untuk membuat aplikasi web dinamis. Berikut adalah tips yang dapat membantu Anda...</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Fanny Ananda Alamsyah
+    </footer>
+
+</body>
+
+</html>
